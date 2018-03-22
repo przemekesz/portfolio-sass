@@ -1,0 +1,12 @@
+/*Menu styles*/
+#mainnav {
+    z-index: 1300 !important;
+
+    #mainnav .navbar-toggler[button] {
+        border-color: $nice-green !important;
+    }
+    #navbarTogglerDemo02 .navbar-nav .nav-item .nav-link {
+        color: $nice-green;
+    }
+
+}

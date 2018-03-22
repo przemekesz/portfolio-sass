@@ -1,0 +1,41 @@
+/* contact */
+
+#contact {
+    background-color: $main-blue;
+
+
+    .inner address a {
+        color: #1ac056;
+    }
+    .social-media a {
+        @include style_icon;
+        
+        .fa {
+            line-height: 50px;
+        }
+    }
+
+}
+
+/*Form*/
+
+#contact .inner form input[type="text"],
+#contact .inner form textarea {
+    background-color: #2b4a64;
+    border: 0;
+    padding: 5px;
+    color: #fff;
+}
+
+#contact .inner form input[type="submit"] {
+    color: #fff;
+    background-color: #1ac056;
+    border: 1px solid #1ac056;
+    cursor: pointer;
+    transition: all 0.4s;
+
+    &:hover {
+        color: #1ac056;
+        background-color: #fff;
+    }
+}

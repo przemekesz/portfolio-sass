@@ -1,0 +1,23 @@
+/*MAIN HEADER*/
+
+#main-header {
+    height: 100vh;
+    /*    padding-left: 0px;  padding-right: 0px;*/
+    background-image: url(../img/header-background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    #main-header .main-header-content h1 {
+        font-weight: 300;
+        font-size: 4em;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    #main-header .main-header-content h2 {
+        font-weight: 300;
+        font-size: 2em;
+        font-family: 'Roboto', sans-serif;
+    }
+
+}
